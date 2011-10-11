@@ -3,7 +3,8 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Usec</title>
-
+	<link rel="icon" type="image/png" href="images/favicon.ico" />
+	
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
 
 	<? if ($config->is_admin()) : ?>
