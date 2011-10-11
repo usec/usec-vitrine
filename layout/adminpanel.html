@@ -1,0 +1,33 @@
+	<div id="editor">
+		<!-- editeur de texte -->
+		<div id="myNicPanel" style="width: 525px;"></div>
+		Nom du fichier : <span id="current_filename"><? echo $page->filename ?></span>
+		<br/>
+		<!-- bouton supprimer page -->
+		<a class="lien_editor" href="javascript:;" onClick="askSupressPage();">Supprimer</a>
+		<!-- bouton deconexion -->
+		<a href="<? echo $config->site->baseurl . 'admin.php?last=' . $_SERVER['REQUEST_URI'] . '&logout'; ?>">Deconexion</a>
+		
+		<!-- dialog de suppression -->
+		<div id="dialog-supress" title="Supprimer la page ?" class="admin_dialog">
+			<p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span>La page sera supprimée et ne pourra aps être récupérée, êtes vous sûr ?</p>
+		</div>
+
+		<!-- dialog d'ajout d'une page -->
+		<div id="dialog-add" title="Ajout d'une page" class="admin_dialog">
+			<p class="validateTips">Tous les champs sont requis.</p>
+
+			<form>
+			<fieldset>
+				<label for="editor_new_filename">Nom du fichier [a-zA-Z0-9]</label>
+				<input type="text" name="editor_new_filename" id="editor_new_filename" class="text ui-widget-content ui-corner-all" />
+				<br/>
+				<label for="editor_new_rubrique">Nom de la rubrique</label>
+				<input type="text" name="editor_new_rubrique" id="editor_new_rubrique" class="text ui-widget-content ui-corner-all" />
+				<br/>
+				<label for="editor_new_show">Apparaître dans le menu ?</label>
+				<input type="checkbox" name="editor_new_show" id="editor_new_show" class="text ui-widget-content ui-corner-all" />
+			</fieldset>
+			</form>
+		</div>
+	</div>

@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<config>
+	<admin>
+		<login>21232f297a57a5a743894a0e4a801fc3</login>
+		<password>21232f297a57a5a743894a0e4a801fc3</password>
+	</admin>
+	<site>
+		<baseurl>http://local-usec-utc.fr/vitrine/</baseurl>
+		<rootdir>/home/thomas/Programmation/USEC/vitrine/</rootdir>
+		<defaultpage>accueil</defaultpage>
+		<pagesext>.html</pagesext>
+	</site>
+	
+	
+	
+<menu><rubrique><filename>accueil</filename><name>Accueil</name></rubrique><rubrique><filename>presentation</filename><name>nous conna&#xEE;tre</name></rubrique><rubrique><filename>prestations</filename><name>prestations</name></rubrique><rubrique><filename>partenaires</filename><name>les partenaires</name></rubrique><rubrique><filename>contact</filename><name>contact</name></rubrique></menu></config>
