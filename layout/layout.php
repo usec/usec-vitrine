@@ -70,7 +70,7 @@
 						<h2>Sidebar1</h2>
 						<ul>
 							<hr/>
-							<li><a href="#">Télécharger notre plaquette</a></li>
+							<li><a href="plaquettes/plaquette_usec.pdf">Télécharger notre plaquette</a></li>
 							<hr/>
 							<li><a href="plan_site.php?last=<? echo $_SERVER['REQUEST_URI'] ?>">Plan du site</a></li>
 							<hr/>
