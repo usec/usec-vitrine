@@ -8,7 +8,7 @@
 	<a href="<? echo $last_url ?>">Retourner au site</a>
 	<form method="post" action="<?php echo $config->site->baseurl . 'admin.php' ?>">
 		<input name="login" id="login" />
-		<input name="password" id="password" />
+		<input name="password" id="password" type="password" />
 		<input type="submit" name="submit"/>
 	</form>
 </body>
