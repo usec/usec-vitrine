@@ -1,6 +1,9 @@
 <Files config.xml>
 deny from all
 </Files>
+<Files change_conf.py>
+deny from all
+</Files>
 
 DefaultType .php
 #AddType application/x-httpd-php .php .phtml
