@@ -16,6 +16,13 @@ a
 	color: #2F2A1D;
 }
 
+/* Spécification pour la page Prestation */
+
+#LinkPrestation a {
+	text-decoration:underline;
+}
+
+
 a:hover {
 	border-bottom: none;
 }
