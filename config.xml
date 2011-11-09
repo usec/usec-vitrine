@@ -5,11 +5,11 @@
 		<password>21232f297a57a5a743894a0e4a801fc3</password>
 	</admin>
 	<site>
-		<baseurl>http://local-usec-utc.fr/usec-vitrine/</baseurl>
-		<rootdir>/home/thomas/Programmation/USEC/usec-vitrine/</rootdir>
+		<baseurl>http://localhost/usec-vitrine/</baseurl>
+		<rootdir>C:\\wamp\www\usec-vitrine\</rootdir>
 		<defaultpage>accueil</defaultpage>
 		<pagesext>.html</pagesext>
-		<urlrewritting>on</urlrewritting>
+		<urlrewritting>off</urlrewritting>
 	</site>
 	
 	

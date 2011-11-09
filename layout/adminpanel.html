@@ -1,12 +1,12 @@
 	<div id="editor">
 		<!-- editeur de texte -->
 		<div id="myNicPanel" style="width: 525px;"></div>
-		Nom du fichier : <span id="current_filename"><? echo $page->filename ?></span>
+		Nom du fichier : <span id="current_filename"><?php echo $page->filename ?></span>
 		<br/>
 		<!-- bouton supprimer page -->
 		<a class="lien_editor" href="javascript:;" onClick="askSupressPage();">Supprimer</a>
 		<!-- bouton deconexion -->
-		<a href="<? echo $config->site->baseurl . 'admin.php?last=' . $_SERVER['REQUEST_URI'] . '&logout'; ?>">Deconexion</a>
+		<a href="<?php echo $config->site->baseurl . 'admin.php?last=' . $_SERVER['REQUEST_URI'] . '&logout'; ?>">Deconexion</a>
 		
 		<!-- dialog de suppression -->
 		<div id="dialog-supress" title="Supprimer la page ?" class="admin_dialog">

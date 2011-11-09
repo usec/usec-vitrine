@@ -7,7 +7,7 @@
 	
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
 
-	<? if ($config->is_admin()) : ?>
+	<?php if ($config->is_admin()) : ?>
 	<link href="css/jqueryui.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
@@ -23,11 +23,11 @@
 	
 	<script type="text/javascript" src="js/nicEdit.js"></script>
 	<script type="text/javascript" src="js/init_nicedit.js"></script>
-	<? endif ?>
+	<?php endif ?>
 
 </head>
 <body>
-	<? if ($config->is_admin())
+	<?php if ($config->is_admin())
 		require_once 'adminpanel.html';
 	?>
 	<div id="wrapper">
@@ -49,12 +49,12 @@
 					echo '<li><a href="' . Page::page_url($rubrique->filename) . '" class="rubrique">' . $rubrique->name . '</a></li>';
 				?>
 			</ul>
-			<? if ($config->is_admin()) : ?>
+			<?php if ($config->is_admin()) : ?>
 			<ul id="menu_admin" class="label">
 				<li><a href="javascript:;" onClick="askAddPage()" >Add</a></li>
 				<li><a href="javascript:;" onClick="saveMenu();" >Save menu</a></li>
 			</ul>
-			<? endif ?>
+			<?php endif ?>
 			<!--ul id="contact">
 				<li><a href="#"><img
 				src="images/bouton_enveloppe.png"
