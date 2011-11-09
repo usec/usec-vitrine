@@ -9,7 +9,7 @@
 		<rootdir>C:\\wamp\www\usec-vitrine\</rootdir>
 		<defaultpage>accueil</defaultpage>
 		<pagesext>.html</pagesext>
-		<urlrewritting>off</urlrewritting>
+		<urlrewritting>on</urlrewritting>
 	</site>
 	
 	
